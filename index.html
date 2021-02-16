@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Johannes Lundkvist
+jolu1807
+jolu1807@student.miun.se
+-->
+<html lang="sv">
+
+<head>
+    <title>Touch Typing</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="loader-icon" id="headerleft"></div>
+        <h1 class="home-title" id="headerright">
+            <span>Zackes</span>
+            <span>Bokstavsspel</span>
+        </h1>
+    </header>
+
+    <main>
+
+        <div class="textpick">
+            <p id="test">Välj text</p>
+            <select id="textpicker" name="textpicker">
+            </select>
+        </div>
+
+        <input type="checkbox" id="casing" checked="true">
+        <label> Stora bokstäver</label>
+
+        <br>
+        <input type="radio" id="checkChar" checked="checked" name="radio">
+        <label> Bokstäver</label>
+        <input type="radio" id="checkWord" name="radio">
+        <label> Ord</label>
+
+
+        <br>
+        <input type="checkbox" id="mute">
+        <label> Ljud</label>
+
+        <p id="right">Antal rätt: </p>
+        <p id="total">Av totalt: </p>
+
+
+        <div class="gamearea">
+            <h1 id="title">Gissa bokstaven!</h1>
+            <h1 id="char"></h1>
+            <div id="textarea"></div>
+            </div>
+
+            <input id="textinput" placeholder="Skriv här...">
+            <button class="playbutton" id="startbutton"></button>
+
+
+    </main>
+
+
+</body>
+
+
+</html>
